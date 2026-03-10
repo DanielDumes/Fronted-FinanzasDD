@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600&display=swap');
 
 /* ── Light theme (default) ───────────────────────────────────────── */
 :root {
@@ -64,7 +64,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -76,8 +76,8 @@ body {
 }
 
 a { text-decoration: none; color: inherit; }
-button { cursor: pointer; font-family: 'Plus Jakarta Sans', sans-serif; }
-input, select { font-family: 'Plus Jakarta Sans', sans-serif; }
+button { cursor: pointer; font-family: 'Nunito', sans-serif; }
+input, select { font-family: 'Nunito', sans-serif; }
 
 /* ── Navbar ───────────────────────────────────────────────────────── */
 .navbar {
@@ -101,11 +101,11 @@ input, select { font-family: 'Plus Jakarta Sans', sans-serif; }
 }
 
 .nav-logo {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 28px;
   letter-spacing: -0.5px;
   font-weight: 600;
-  font-style: italic;
+  
   color: var(--text);
 }
 .nav-logo span { color: var(--accent); font-style: normal; }
@@ -231,11 +231,11 @@ input, select { font-family: 'Plus Jakarta Sans', sans-serif; }
 }
 
 .auth-logo {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 44px;
   text-align: center;
   margin-bottom: 8px;
-  font-style: italic;
+  
   font-weight: 600;
   letter-spacing: -1px;
   color: var(--text);
@@ -292,9 +292,9 @@ input, select { font-family: 'Plus Jakarta Sans', sans-serif; }
 
 /* ── Page title ───────────────────────────────────────────────────── */
 .page-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 40px; letter-spacing: -1px;
-  margin-bottom: 4px; font-style: italic; font-weight: 600;
+  margin-bottom: 4px; font-weight: 600;
 }
 .page-sub { font-size: 13px; color: var(--text2); margin-bottom: 36px; }
 
@@ -323,7 +323,7 @@ input, select { font-family: 'Plus Jakarta Sans', sans-serif; }
 .stat-card.accent::before { background: var(--accent); opacity: 0.5; }
 
 .stat-label { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text3); margin-bottom: 10px; }
-.stat-value { font-family: 'Cormorant Garamond', serif; font-size: 36px; letter-spacing: -1px; line-height: 1; font-style: italic; font-weight: 600; }
+.stat-value { font-family: 'Fredoka', sans-serif; font-size: 36px; letter-spacing: -1px; line-height: 1; font-weight: 600; }
 .stat-card.green  .stat-value { color: var(--green); }
 .stat-card.red    .stat-value { color: var(--red); }
 .stat-card.accent .stat-value { color: var(--accent); }
@@ -434,7 +434,7 @@ input, select { font-family: 'Plus Jakarta Sans', sans-serif; }
 }
 .balance-acumulado-panel .label { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text3); margin-bottom: 6px; }
 .balance-acumulado-panel .sublabel { font-size: 12px; color: var(--text3); }
-.balance-acumulado-panel .value { font-family: 'Cormorant Garamond', serif; font-size: 34px; font-style: italic; font-weight: 600; letter-spacing: -1px; }
+.balance-acumulado-panel .value { font-family: 'Fredoka', sans-serif; font-size: 34px; font-weight: 600; letter-spacing: -1px; }
 
 /* ── Charts ───────────────────────────────────────────────────────── */
 .charts-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; margin-bottom: 16px; }
@@ -453,8 +453,8 @@ input, select { font-family: 'Plus Jakarta Sans', sans-serif; }
 
 /* ── Profile ──────────────────────────────────────────────────────── */
 .profile-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 44px; max-width: 500px; box-shadow: var(--shadow); }
-.profile-avatar { width: 68px; height: 68px; border-radius: 50%; background: rgba(45,122,58,0.1); border: 2px solid rgba(45,122,58,0.2); display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', serif; font-size: 30px; font-style: italic; color: var(--accent); margin-bottom: 22px; }
-.profile-name { font-family: 'Cormorant Garamond', serif; font-size: 30px; margin-bottom: 4px; font-style: italic; font-weight: 600; letter-spacing: -0.5px; }
+.profile-avatar { width: 68px; height: 68px; border-radius: 50%; background: rgba(45,122,58,0.1); border: 2px solid rgba(45,122,58,0.2); display: flex; align-items: center; justify-content: center; font-family: 'Fredoka', sans-serif; font-size: 30px;  color: var(--accent); margin-bottom: 22px; }
+.profile-name { font-family: 'Fredoka', sans-serif; font-size: 30px; margin-bottom: 4px; font-weight: 600; letter-spacing: -0.5px; }
 .profile-email { font-size: 13px; color: var(--text2); margin-bottom: 32px; }
 .profile-row { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--border); }
 .profile-row:last-of-type { border-bottom: none; margin-bottom: 28px; }
