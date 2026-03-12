@@ -9,6 +9,7 @@ import GraficasView  from '../views/GraficasView.vue'
 import PerfilView    from '../views/PerfilView.vue'
 import MetasView from '../views/MetasView.vue'
 import PresupuestosView from '../views/PresupuestosView.vue'
+import VerificarView from '../views/VerificarView.vue'
 const routes = [
   { path: '/',         redirect: '/dashboard' },
   { path: '/login',    component: LoginView,     meta: { guest: true } },
@@ -17,7 +18,9 @@ const routes = [
   { path: '/graficas', component: GraficasView,  meta: { auth: true } },
   { path: '/perfil',   component: PerfilView,    meta: { auth: true } },
   {path: '/metas', component: MetasView,         meta: {auth: true}},
-{ path: '/presupuestos', component: PresupuestosView, meta: { auth: true } },]
+{ path: '/presupuestos', component: PresupuestosView, meta: { auth: true } },
+{ path: '/verificar', component: VerificarView, meta: { guest: true } },]
+
 
 const router = createRouter({
   history: createWebHistory(),
